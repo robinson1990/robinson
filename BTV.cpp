@@ -52,4 +52,5 @@ void BTV(cv::Mat& svec,cv::Size BTVkernel, float alpha,cv::Mat& dvec,cv::Size si
 	}
 	dst.reshape(3,size.height*size.width).convertTo(dvec,CV_32FC3);
 	delete[] weight;
+       	//test hogehoge
 }
